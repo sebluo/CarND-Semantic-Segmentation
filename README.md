@@ -5,7 +5,7 @@ In this project, i label the pixels of a road in images using a Fully Convolutio
 ## Project Overview
 In this project, we labeled the pixels of a road in images using a Fully Convolutional Network (FCN) programmed in Python 3.5.2, Tensorflow 1.3.0, running in an Ubuntu 16.04 . I experimented with multiple epochs, batch sizes, learning rates and dropouts hyper parameters during training, and  finally settled on the following hyper parameters :
 
-Epochs: 20
+Epochs: 25
 Batch Size: 1 (One 160x576 pixel RGB image)
 Learning rate: 0.0001
 Dropouts: 0.5
@@ -14,15 +14,14 @@ I saved the final model and resulting weights in the runs directory, where all o
 ## Result
 The final Loss: 0.011532140895724297
 
-The predicting images can be seen in the directory "./runs/".
 The following give examples of the output of this Fully Convolutional Network for Semantic Segmentation:
-<img src='runs/um_000000.png'>  
+<img src='um_000000.png'>  
 
-<img src='runs/um_000010.png'>  
+<img src='um_000010.png'>  
 
-<img src='runs/umm_000010.png'>  
+<img src='umm_000010.png'>  
 
-<img src='runs/uu_000028.png'>  
+<img src='uu_000028.png'>  
 
 ## Setup
 ### Frameworks and Packages
